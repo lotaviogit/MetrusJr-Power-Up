@@ -22,7 +22,7 @@ window.TrelloPowerUp.initialize({
 			console.log(card);
 			if (card.labels) {
 				return [{
-					text: card.labels
+					text: card.labels[0].toString()
 				}];
 			}
 		});
