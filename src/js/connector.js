@@ -21,6 +21,7 @@ window.TrelloPowerUp.initialize({
 		.then(function(card) {
 			console.log(card);
 			if (card.labels) {
+				console.log(card.labels[0].toString());
 				return [{
 					text: card.labels[0].toString()
 				}];
