@@ -1,0 +1,15 @@
+{
+  "name": "MetrusJr-Power-Up",
+  "version": "1.0.0",
+  "description": "A general power up for the company to use with trello",
+  "main": "index.js",
+  "repository": "https://github.com/lotaviogit/MetrusJr-Power-Up.git",
+  "author": "Luis Otavio <luis040396@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+  	"build": "parcel build src/html/*.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
